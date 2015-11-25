@@ -44,10 +44,11 @@ Then we have to make a couple of changes such as:
     `bootstrap-sprockets` provides all the Bootstrap Javascript in individual files (`alert.js`, `dropdown.js`, etc), whereas the `bootstrap` file provides a concatenated file containing all Bootstrap Javascripts, that's why `bootstrap-sprockets` and `bootstrap` should not be require together.
 
 ---
-* [Home][home]
+[:house:][home] | [:arrow_forward: Next][next]
 
 <!-- links -->
 [home]: ../README.md
+[next]: getting_started.md
 
 [devise]: https://github.com/plataformatec/devise
 [bootie]: https://github.com/twbs/bootstrap-sass
