@@ -8,6 +8,15 @@
         </a>
       </div>
 
+      <div class="navbar-right">
+        <% if user_signed_in? %>
+          <%= link_to "Log out", destroy_user_session_path, method: "delete", class: 'btn btn-warning navbar-btn' %>
+          <p class="navbar-text">Logged in as <%= current_user.email %></p>
+        <% else %>
+          <%= link_to "Log in", new_user_session_path, class: 'btn btn-success navbar-btn' %>
+        <% end %>
+      </div>
+
     </div><!-- .container -->
   </div><!-- .container-fluid -->
 </nav>

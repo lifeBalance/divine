@@ -115,7 +115,7 @@ And let's add a `render` call to this partial in our `application.html.erb`:
 
 For now that should be enough for getting us started. As we move along we'll be adding more [Bootstrap][bootie] styles to the project.
 
-> If you want to see how the project looks like so far, checkout the `v0.1` branch and run `rails server`.
+> If you want to see how the project looks like so far, checkout the `version-0.1` branch and run `rails server`.
 
 ---
 [:arrow_backward:][back] | [:house:][home] | [:arrow_forward:][next]
@@ -123,7 +123,7 @@ For now that should be enough for getting us started. As we move along we'll be 
 <!-- link references -->
 [home]: ../README.md
 [back]: installing.md
-[next]: #
+[next]: generating_devise_model.md
 
 [devise]: https://github.com/plataformatec/devise
 [bootie]: https://github.com/twbs/bootstrap-sass
