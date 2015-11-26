@@ -9,10 +9,7 @@ $ rails generate devise User
        route  devise_for :users
 ```
 The command above generates 3 things:
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 1. A `User` model with some **Devise modules** inserted.
 2. A line is added to our `routes.rb` file.
 3. A database **migration**.
