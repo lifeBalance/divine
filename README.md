@@ -5,8 +5,10 @@ In these **readme files** I'm gonna try to keep notes describing the steps taken
 
 * [Installing stuff][l1]
 * [Getting Started][l2]
+* [Generating a Devise model][l3]
 
 <!-- links -->
 [devise]: https://github.com/plataformatec/devise
 [l1]: README_FILES/installing.md
 [l2]: README_FILES/getting_starteding.md
+[l3]: README_FILES/generating_devise_model.md
