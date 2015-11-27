@@ -1,2 +1,7 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="jumbotron">
+  <h1>Son, do you want to go to heaven?</h1>
+  <p><%= image_tag 'heck-yes.jpg', class: 'center-block img-rounded' %></p>
+  <p class="text-center">
+    <%= link_to "Yes", heaven_path, class: 'btn btn-primary' %>
+  </p>
+</div>

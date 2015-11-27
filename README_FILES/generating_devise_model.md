@@ -138,7 +138,7 @@ Last thing we are going to do here is add some style to the view we are using fo
 <!-- link references -->
 [home]: ../README.md
 [back]: getting_started.md
-[next]: #
+[next]: adding_another_page.md
 
 [devise]: https://github.com/plataformatec/devise
 [bootie]: https://github.com/twbs/bootstrap-sass
